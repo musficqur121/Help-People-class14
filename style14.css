@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Banner Section Style */
+.banner{
+    background:linear-gradient(#00000098, rgba(0, 0, 0, 0.26)), url(/main.png) no-repeat;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text,
+.main-para, 
+.btn{
+    color: white;
+}
+
+.main-text{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.main-para{
+    font-size: 18px;
+    margin: 25px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #FF5959;
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color: red;
+}
+/* Banner Section Style End */
+
+/* Main Section Style State */
+
+/* 1st Section state*/
+.container{
+    margin: 80px 180px;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.middle-text{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.middle-para{
+    margin: 25px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.value{
+    padding: 40px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    color:#707070;
+    font-family: 'Times New Roman', Times, serif;
+}
+.border-value{
+    background-color: #FFEEEE;
+    border-radius: 10px;
+    border: 3px solid #FF5959;
+}
+
+.other-amount{
+    color: #B3B3B3;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+ /* 1st Section End */
+
+ /* 2nd Section State */
+.middle-text-02{
+    font-size: 35px;
+    font-family: sans-serif;
+ }
+ .middle-para-02{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0;
+ }
+ /* 2nd Section End */
+
+ /* 3rd Section State */
+
+.container_02{
+    display: flex;
+    margin: 80px 180px;
+}
+
+.card-1{
+    margin: 0 10px;
+    text-align: justify;
+    box-shadow: 1px 3px 10px;
+    padding: 30px;
+    /* border: 1px solid white; */
+    background-color: #4F9DA61A;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.container_02 .card-1:hover{
+    transform: translateY(-50px);
+    background-color: #ff595979;
+}
+
+.card-2{
+    margin: 0 10px;
+    text-align: justify;
+    box-shadow: 1px 3px 10px;
+    padding: 30px;
+    background-color: #FF59591A;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.container_02 .card-2:hover{
+    transform: translateY(-50px);
+    background-color: #ff595979;
+}
+
+.card-3{
+    margin: 0 10px;
+    text-align: justify;
+    box-shadow: 1px 3px 10px;
+    padding: 30px;
+    background-color: rgba(214, 231, 118, 0.63);
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.container_02 .card-3:hover{
+    transform: translateY(-50px);
+    background-color: #ff595979;
+}
+
+.main-card-text{
+    padding: 0 0 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para-card-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* 3rd Section End*/
+
+/* container_03 state */
+
+/* 1st fold */
+
+.container_03{
+    margin: 100px 180px;
+    display: flex;
+}
+
+.help{
+    width: 50%;
+}
+
+.help-main-text{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 30px 0 0 0;
+}
+
+.help-main-para{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+    padding: 20px 50px 20px 0;
+}
+
+.help-image{
+    height: 380px;
+}
+
+/* End */
+
+.box{
+    background-color: #FFF4D6;
+    padding: 100px;
+    margin: 0 300px 100px 300px ;
+    text-align: center;
+}
+
+.email-box{
+    padding: 10px 35px;
+    border-radius: 6px;
+    border: none;
+    background-color: #D9D9D9;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.subscribe{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FF5959;
+    font-family: sans-serif;
+    color: white;
+    outline: none;
+}
+
+footer{
+    background-color: #0B0D17;
+    padding: 10px 50px 50px 50px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.humble{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FF5959;
+}
+.gonna{
+    font-size: 12px;
+    color: #D9DBE1;
+}
