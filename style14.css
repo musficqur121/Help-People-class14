@@ -9,7 +9,7 @@
 
 /* Banner Section Style */
 .banner{
-    background:linear-gradient(#00000098, rgba(0, 0, 0, 0.26)), url(/main.png) no-repeat;
+    background:linear-gradient(#00000098, rgba(0, 0, 0, 0.26)), url(assate/main.png) no-repeat;
     height: 90vh;
     width: 100%;
     display: flex;
